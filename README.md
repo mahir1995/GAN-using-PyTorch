@@ -11,7 +11,17 @@ The second model is named the Discriminator. This model’s goal is to recognize
 
 The jupyter notebook contains an implementation of GAN from scratch using PyTorch. It contains 2 neural networks. A Generator Network and Discriminator Network, that compete and cooperate with each other. In the course of training, both networks eventually learn how to perform their tasks.
 
-Here are my results after 200 epochs
+Here are my results:
+
+Initial
+
+![I](https://github.com/mahir1995/GAN-using-PyTorch/blob/master/images/_epoch_0_batch_0.png)
+
+After 60 epoch
+
+![I](https://github.com/mahir1995/GAN-using-PyTorch/blob/master/images/_epoch_65_batch_400.png)
+
+![I](https://github.com/mahir1995/GAN-using-PyTorch/blob/master/images/Gif-2019-50-23-16-50-41.gif)
 
 Credits:
 [GANs from Scratch 1: A deep introduction. With code in PyTorch and TensorFlow](https://medium.com/ai-society/gans-from-scratch-1-a-deep-introduction-with-code-in-pytorch-and-tensorflow-cb03cdcdba0f)
